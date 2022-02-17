@@ -53,4 +53,4 @@ jobs:
           app-name: 'Frontend-Integrado'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D84E7C25C34498E98CDE46ECC6F9F18 }}
-          package: .
+          package: 'build'
