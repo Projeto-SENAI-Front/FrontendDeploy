@@ -1,0 +1,35 @@
+:root{
+  --vermelho : #d40d38;
+  --cinza: #272727;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img{
+  max-width: 200px;
+}
+
+header nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li a{
+  margin: 0 20px;
+}
+
+
